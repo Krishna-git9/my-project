@@ -3,5 +3,5 @@ SELECT
   First_Name, 
   Department_Id, 
   Salary, 
-  DENSE_RANK() OVER(PARTITION BY Department_Id ORDER BY Salary) AS SAL_RANK 
+  DENSE_RANK() OVER(PARTITION BY Department_Id ORDER BY Salary) AS SAL_Rank
 FROM EMPLOYEES;
