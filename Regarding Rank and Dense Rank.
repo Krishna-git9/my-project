@@ -3,5 +3,5 @@ Employee_Id,
 First_Name,
 Department_Id,
 Salary,
-RANK() OVER(PARTITION BY Department_Id ORDER BY Salary) AS SAL_RANK
+RANK() OVER(PARTITION BY Department_Id ORDER BY Salary) AS Sal_Rank
 FROM EMPLOYEES;
