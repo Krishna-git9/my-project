@@ -11,4 +11,3 @@ FROM (
     FROM employees
 ) t
 WHERE rnk = 1;
-
